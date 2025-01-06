@@ -1,0 +1,10 @@
+/* body{
+    background-color: black;
+} */
+form{
+    width: 50%;
+    background-color: pink;
+}
+input{
+    max-width: 100%;
+}

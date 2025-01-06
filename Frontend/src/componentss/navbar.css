@@ -1,0 +1,48 @@
+/* Navbar.css */
+
+.navbar {
+    background-color: transparent;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo img {
+    height: 40px; /* Adjust the height of the logo */
+    margin-right: 10px;
+    border: 0px;
+  }
+  .logo h6{
+    color:white;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-links li {
+    margin-right: 15px;
+  }
+  
+  .nav-links a {
+    text-decoration: none;
+    color:pink;
+    font-size: 16px;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+    /* position:fixed; */
+  }
+  
+  .nav-links a:hover {
+    color:red ;/* Change the color on hover */
+    font-size:30px
+  }
+  
