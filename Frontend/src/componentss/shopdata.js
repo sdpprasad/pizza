@@ -63,7 +63,7 @@ const Shoplist = () => {
             <tr key={index}> {/* Each student data should be wrapped in a separate <tr> */}
                 <td>{index + 1}</td>
                 <td>{shopdata.name}</td>
-               <td>{shopdata.Prize}</td>
+               <td>{shopdata.prize}</td>
                 <td><button onClick={()=>deletesho(shopdata._id) } style={{backgroundColor:"red",height:"50px",width:"50%",}}>Remove</button></td>
                 </tr>
             ))}
